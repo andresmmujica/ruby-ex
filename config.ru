@@ -248,6 +248,8 @@ pre {
             <section>
               <h2>Deploying code changes</h2>
                 <p>
+                  Fue algo complicado porque no funciono al copiar el url, se creo un secret pero igual no lo uso, se tomo el base64 del secret creado y se edito el Build config para probar, con la linea curl funciono
+                  <h5>curl -H "X-GitHub-Event: push" -H "Content-Type: application/json" -k -X POST --data-binary @payload.json https://api.cluster-nl4tw.dynamic.opentlc.com:6443/apis/build.openshift.io/v1/namespaces/myproject/buildconfigs/ruby-ex/webhooks/bTFwNDU1dzByZHMzY3IzdDA=/github |jq</h5>
                   The source code for this application is available to be forked from the <a href="https://www.github.com/sclorg/ruby-ex">OpenShift GitHub repository</a>.
                   You can configure a webhook in your repository to make OpenShift automatically start a build whenever you push your code:
                 </p>
