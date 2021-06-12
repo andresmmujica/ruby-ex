@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift - BY ANDRES MUJICA! - with a WEBHOOK!!</h1>
+            <h1>TEST7 - Welcome to your Ruby application on OpenShift - BY ANDRES MUJICA! - with a WEBHOOK!!</h1>
           </hgroup>
 
 
